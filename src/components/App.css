@@ -1,0 +1,245 @@
+.section {
+    background-image: "https://www.gannett-cdn.com/presto/2020/05/13/USAT/558f15c1-dfee-4112-9b45-3931968ed172-sewing-machine-hero.jpg?crop=2111,1187,x9,y0&width=1600&height=800&fit=bounds";
+    position: relative;
+}
+
+.adsf {
+    overflow: scroll;
+}
+
+img {
+    width: 100%;
+}
+
+.sec-img {
+    opacity: 70%;
+}
+
+.carousel-img {
+    margin: 0 !important;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.overlay-text {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: calc(5px + 8vw);
+    color: #1E1A1A;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    color: #1E1A1A;
+    font-family: 'Quicksand', sans-serif;
+}
+
+App.css .App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.slides {
+    position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.slides .slick-prev {
+    left: 5%;
+}
+
+.slides .slick-next {
+    right: 5%;
+}
+
+.cont {
+    height: 50vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.create {
+    padding: 5rem;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: calc(5px + 3vw);
+    color: #1E1A1A;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.generate-btn {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #1E1A1A;
+    border: solid #1E1A1A;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.generate-btn:hover {
+    background-color: #454040;
+    color: white;
+    border-color: #454040;
+}
+
+div.overlay-carousel {
+    opacity: 80%;
+    padding: 5vh;
+    background-color: white;
+    z-index: 6;
+    border-radius: 3%;
+    margin: 30px;
+    text-align: center;
+    width: 60%;
+    height: 60%;
+}
+
+div.overlay-carousel p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    z-index: 5;
+    font-size: calc(10px + 0.7vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer {
+    padding: 20px 0px;
+    background-color: #454040;
+    text-align: center;
+}
+
+.btnfoot {
+    background-color: #454040;
+    color: #f7d2d2;
+    font-size: 30px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    margin: 0px 10px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.btnfoot:hover {
+    background-color: #454040;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #454040;
+}
+
+a {
+    color: white;
+}
+
+a:focus {
+    color: #454040;
+}
+
+.mission {
+    background-color: white;
+    text-align: center;
+    padding: 75px 15%;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.rowz {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.card {
+    border: 0;
+    border-radius: 5%;
+    opacity: 95%;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.navgar-brand {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navgar-brand:hover,
+.nav-item:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navgar-brand:visited,
+.nav-item:visited {
+    color: white;
+}
+
+.centerbutton {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}

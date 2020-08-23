@@ -1,0 +1,86 @@
+.body {
+    overflow: hidden !important;
+}
+
+.apppage {
+    font-family: Quicksand;
+    font-weight: 400;
+}
+
+.apppage label {
+    display: block;
+    margin-top: 1em;
+}
+
+.apppage input {
+    display: block;
+}
+
+.apppage .left-card {
+    background: #f2ebe6;
+    padding: 5em;
+    padding-left: 8em;
+    overflow: hidden;
+}
+
+.apppage .right-card {
+    padding-left: 5em;
+    padding-top: 7em;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.apppage .pattern {
+    text-align: center;
+}
+
+.apppage img {
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+.dropdown {
+    margin-bottom: 1em;
+}
+
+.generate-btn {
+    margin-top: 2em;
+    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    float: right;
+    border-style: none;
+    outline: none;
+    background-color: white;
+    transition: 0.2s;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.generate-btn:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    background-color: #333;
+    color: white;
+}
+
+.generate-btn:focus {
+    outline: none;
+}
+
+.apppage .p-measurements {
+    margin: 2em;
+}
+
+.apppage .p-element {}
+
+.apppage .append {
+    border-radius: 0!important;
+    background-color: white;
+}
+
+.apppage .input {
+    border-radius: 0!important;
+    background-color: white;
+}
